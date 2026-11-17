@@ -1,0 +1,5 @@
+insight
+Random Forest outperformed Linear Regression on the test period.
+September and October 2018 were excluded as incomplete months.
+Only four months were used for final testing.
+More historical data and rolling validation are needed before business use.

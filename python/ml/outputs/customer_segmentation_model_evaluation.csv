@@ -1,0 +1,2 @@
+Model,Number_of_Clusters,Total_Customers,Silhouette_Score,Inertia,Features,Transformation
+K-Means,4,93358,0.3923929626071569,83368.21551104053,"frequency, monetary, recency_days",log1p + StandardScaler

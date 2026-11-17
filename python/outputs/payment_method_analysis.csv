@@ -1,0 +1,6 @@
+payment_type,total_transactions,unique_orders,total_payment_brl,average_payment_brl,payment_value_share_pct
+credit_card,76795,76505,12542084.19,163.32,78.34
+boleto,19784,19784,2869361.27,145.03,17.92
+voucher,5775,3866,379436.87,65.7,2.37
+debit_card,1529,1528,217989.79,142.57,1.36
+not_defined,3,3,0.0,0.0,0.0

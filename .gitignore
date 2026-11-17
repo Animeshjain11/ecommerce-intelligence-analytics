@@ -1,0 +1,36 @@
+
+# Secrets
+.env
+.env.*
+
+# Python environment
+.venv/
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Raw datasets
+data/raw/
+
+# Python compiled files
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Local app backups
+app_backup_*.py
+app_backup_seller_filters.py
+
+# Large export archive
+powerbi_exports.zip
+
+# Individual customer-level analytical data - keep local
+python/outputs/customer_rfm_analysis.csv
+python/outputs/ml_customer_segmentation.csv
+python/ml/outputs/ml_customer_segmentation_k4.csv

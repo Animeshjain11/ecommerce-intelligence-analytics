@@ -1,0 +1,2 @@
+forecast_month,baseline_prediction,linear_prediction,random_forest_prediction
+2018-09-01,854686.33,911282.8795396951,957966.0698657744

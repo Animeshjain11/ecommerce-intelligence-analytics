@@ -1,0 +1,4 @@
+sentiment_category,total_reviews,average_score,review_percentage
+Negative,14575,1.22,14.69
+Neutral,8179,3.0,8.24
+Positive,76470,4.75,77.07

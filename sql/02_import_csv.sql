@@ -1,0 +1,9 @@
+\copy raw.orders FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_orders_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.order_items FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_order_items_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.customers FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_customers_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.products FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_products_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.sellers FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_sellers_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.payments FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_order_payments_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.reviews FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_order_reviews_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.geolocation FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/olist_geolocation_dataset.csv' WITH (FORMAT CSV, HEADER TRUE);
+\copy raw.category_translation FROM '/Users/animeshjain/ecommerce-intelligence-analytics/data/raw/product_category_name_translation.csv' WITH (FORMAT CSV, HEADER TRUE);
