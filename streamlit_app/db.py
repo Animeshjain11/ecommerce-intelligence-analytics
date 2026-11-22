@@ -35,7 +35,7 @@ def get_engine():
         f"{quote_plus(password)}@{host}:{port}/{database}"
     )
 
-    return create_engine(connection_url, pool_pre_ping=True)
+    return create_engine(connection_url, connect_args={"sslmode": "require"}, pool_pre_ping=True)
 
 
 def test_connection():
