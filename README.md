@@ -26,6 +26,20 @@ The platform combines SQL, Python, Machine Learning, Power BI and Streamlit to t
 | BI | Power BI |
 | Version Control | Git, GitHub |
 
+## Dashboard Previews
+
+### Executive Overview
+![Executive Overview](screenshots/01_executive_overview.png)
+
+### Monthly Sales Analytics
+![Sales Analytics](screenshots/02_sales_analytics.png)
+
+### Customer Segmentation
+![Customer Segmentation](screenshots/03_customer_segmentation.png)
+
+### Power BI Dashboard
+![Power BI](screenshots/04_powerbi_dashboard.png)
+
 ## Project Architecture
 
 Raw CSV Data → PostgreSQL Raw Tables → Staging Tables → Analytics Views → Python & Machine Learning → Power BI / Streamlit
